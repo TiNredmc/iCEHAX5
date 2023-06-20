@@ -19,3 +19,5 @@ iCEHAX5 FPGA is a bare-minimum and open-source FPGA development board based on i
     - Bitstream storage : BR24G1MFJ 128kByte I2C EEPROM (I know it sucks, but it work!).
     - Bitstream transfer to the FPGA over SPI bus 
 - On board LED status for iCEBlaster.
+
+![alt text](https://raw.githubusercontent.com/TiNredmc/iCEHAX5/master/images/DSC_0751.JPG)
