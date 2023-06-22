@@ -17883,6 +17883,16 @@ iCE5LP1K-SG48</text>
 <label x="27.94" y="53.34" size="1.778" layer="95"/>
 <pinref part="J2" gate="G$1" pin="11"/>
 </segment>
+<segment>
+<wire x1="152.4" y1="114.3" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
+<label x="157.48" y="114.3" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="VCCIO_0"/>
+</segment>
+<segment>
+<wire x1="223.52" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
+<label x="226.06" y="66.04" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="6"/>
+</segment>
 </net>
 <net name="+1V2" class="0">
 <segment>
@@ -18099,27 +18109,6 @@ iCE5LP1K-SG48</text>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO15" class="0">
-<segment>
-<wire x1="25.4" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
-<label x="27.94" y="73.66" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="IO16" class="0">
-<segment>
-<wire x1="25.4" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
-<label x="27.94" y="71.12" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="IO17" class="0">
-<segment>
-<wire x1="25.4" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<label x="27.94" y="68.58" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="5"/>
-</segment>
-</net>
 <net name="IO18" class="0">
 <segment>
 <wire x1="91.44" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
@@ -18250,18 +18239,6 @@ iCE5LP1K-SG48</text>
 <wire x1="223.52" y1="63.5" x2="228.6" y2="63.5" width="0.1524" layer="91"/>
 <label x="226.06" y="63.5" size="1.778" layer="95"/>
 <pinref part="J3" gate="G$1" pin="7"/>
-</segment>
-</net>
-<net name="IO33" class="0">
-<segment>
-<wire x1="152.4" y1="114.3" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
-<label x="157.48" y="114.3" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="VCCIO_0"/>
-</segment>
-<segment>
-<wire x1="223.52" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
-<label x="226.06" y="66.04" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="IO34" class="0">
@@ -18444,18 +18421,16 @@ iCE5LP1K-SG48</text>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO14" class="0">
-<segment>
-<wire x1="25.4" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
-<label x="27.94" y="76.2" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="SO" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="IOB_32A_SPI_SO"/>
 <wire x1="91.44" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <label x="81.28" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
+<label x="27.94" y="76.2" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -18464,6 +18439,11 @@ iCE5LP1K-SG48</text>
 <label x="81.28" y="116.84" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="IOB_34A_SPI_SCK"/>
 </segment>
+<segment>
+<wire x1="25.4" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<label x="27.94" y="73.66" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+</segment>
 </net>
 <net name="SS" class="0">
 <segment>
@@ -18471,12 +18451,22 @@ iCE5LP1K-SG48</text>
 <label x="81.28" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="IOB_35B_SPI_SS"/>
 </segment>
+<segment>
+<wire x1="25.4" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
+<label x="27.94" y="71.12" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+</segment>
 </net>
 <net name="SI" class="0">
 <segment>
 <wire x1="91.44" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="81.28" y="111.76" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="IOB_33B_SPI_SO"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
+<label x="27.94" y="68.58" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="5V" class="0">
